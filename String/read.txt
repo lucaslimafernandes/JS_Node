@@ -1,0 +1,13 @@
+Strings
+
+str.length :Retorna a quantidade de caracteres da Strings
+str.toUpperCase() : retorna a string toda em maiúscula
+str.toLowerCase() : retorna a string toda em minúscula
+str.endsWith('x') : retorna true se a string termina com o caracter(ou palavra) passado por paramêtro
+str.startsWith('x') : retorna true se a string começa com o caracter(ou palavra) passado por paramêtro
+str.replace('x','y') : retorna uma string cópia da original, mas com os caracteres x substituídos por y
+str.trim() : retorna uma string cópia da original, mas sem espaços no ínicio e no fim.
+str.concat(str2) : faz a fusão dos caracteres de str2 no final de str
+parseInt(str): retorna um número a partir da string(se for possível)
+parseFloat(str) : retorna um número decimal a partir da string (se for possível)
+x.toString() : retorna uma string criada a partir de outra variavel qualquer (x)
