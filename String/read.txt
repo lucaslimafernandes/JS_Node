@@ -11,3 +11,21 @@ str.concat(str2) : faz a fusão dos caracteres de str2 no final de str
 parseInt(str): retorna um número a partir da string(se for possível)
 parseFloat(str) : retorna um número decimal a partir da string (se for possível)
 x.toString() : retorna uma string criada a partir de outra variavel qualquer (x)
+str.split('x'): Retorna um array de Strings quebrando a original pelo caracter
+(ou palavra) informado na função.
+str.charAt(i) : retorna o caracter na posição informada na string (zero-based)
+str.slice(start, end) : retorna uma substring da original começando na posição
+start e terminando na posição end.
+str.indexOf('x') : retorna a posição do caracter (ou palavra) x dentro de str ou -1
+caso ele não exista dentro de str.
+
+
+Array
+
+arr.length : retorna a quantidade atual de elementos do array
+arr.push(x) : adiciona o valor x ao final do Array
+arr.splice(i) : remove o elemento na posição do array
+arr.concat(arr2) : faz a fusão dos elementos de arr2 (outro array) no final de arr
+arr.indexOf(x): retorna a posição do elemento x dentro de arr, ou -1 caso não tenha
+arr.forEach(funtion(x){}) : percorre todas as posições do array, e a cada iteração
+executa a função passada por paramêtro onde x representa o item da iteração atual.
